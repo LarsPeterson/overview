@@ -6,9 +6,15 @@
 
 - Godot
 
-## Game Development Assets
+### Game Art
 
-- Itch.io
+- [OpenGameArt](https://opengameart.org/)
+
+- [Itch.io](https://itch.io/game-assets/free)
+
+### Game Art Tools
+
+- https://ezgif.com/sprite-cutter/
 
 ## 3D Modeling
 

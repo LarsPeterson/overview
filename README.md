@@ -6,32 +6,34 @@
 
 ## MacOS 
 
-- [ZSH](https://github.com/ohmyzsh/ohmyzsh) .zprofile
+### [ZSH](https://github.com/ohmyzsh/ohmyzsh)
 
-```
-# Default
-
-export PATH="${PATH}:/usr/local/bin"
-
-# NVM (Node Version Manager)
-
-source ~/.nvm/nvm.sh
-
-# Python 3.10
-
-export PATH="${PATH}:/Library/Frameworks/Python.framework/Versions/3.10/bin"
-alias python=python3 # Add Alias for Python 3.10
-
-# Visual Studio Code
-
-export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
-# Chruby
-
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
-chruby ruby-3.1.2
-```
+- .zprofile
+  
+  ```
+  # Default
+  
+  export PATH="${PATH}:/usr/local/bin"
+  
+  # NVM (Node Version Manager)
+  
+  source ~/.nvm/nvm.sh
+  
+  # Python 3.10
+  
+  export PATH="${PATH}:/Library/Frameworks/Python.framework/Versions/3.10/bin"
+  alias python=python3 # Add Alias for Python 3.10
+  
+  # Visual Studio Code
+  
+  export PATH="${PATH}:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+  
+  # Chruby
+  
+  source /usr/local/share/chruby/chruby.sh
+  source /usr/local/share/chruby/auto.sh
+  chruby ruby-3.1.2
+  ```
 
 ## Code Standards
 
@@ -41,15 +43,15 @@ chruby ruby-3.1.2
 
 - [Git](https://github.com)
 
-```
-git config --list
-git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
-git stash pop
-git stash pop stash@{0}
-git stash apply
-git stash apply stash@{0}
-```
+  ```
+  git config --list
+  git config --global user.name "John Doe"
+  git config --global user.email johndoe@example.com
+  git stash pop
+  git stash pop stash@{0}
+  git stash apply
+  git stash apply stash@{0}
+  ```
 
 ## Web Hosting
 

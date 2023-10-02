@@ -150,6 +150,28 @@
 - [Best Way to Install Ruby on Mac 1](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma)
 - [Best Way to Install Ruby on Mac 2](https://mac.install.guide/ruby/12.html)
 
+### Angular
+
+- Tips
+  - https://tomastrajan.medium.com/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81
+
+- Hot Module Replacement
+  - Increases development productivity by only reloading changed code instead of rebuilding the entire Angular application when something changes.
+     - https://medium.com/echohub/implementation-of-hmr-hot-module-replacement-to-angular-project-f7bca523bd16
+
+- Route Guards
+  - Everything you need to know about Route Guards:
+    - https://dev.to/this-is-angular/demystifying-angular-route-guards-a-beginners-guide-to-secure-navigation-597b
+
+- State Management with NgRx
+  - Uses the NgRx Store to handle state management. Most projects already have NgRx imported.
+    - https://www.syncfusion.com/blogs/post/angular-state-management-with-ngrx.aspx
+
+- Linting with ESLint
+  - TSLint has been deprecated and ESLint is the official replacement.
+    - https://blog.bitsrc.io/how-ive-set-up-eslint-and-prettier-in-angular-16-and-why-i-did-that-4bfc304284a6
+    - https://github.com/artsy/lint-changed
+
 ## Web Testing
 
 - [Spelling Check](https://datayze.com/website-spell-checker)

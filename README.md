@@ -10,7 +10,23 @@
 - [LucidChart](https://www.lucidchart.com) is a online diagramming tool that allows visual collaboration on charts and diagrams. _(free up to 3 documents)_
 - [HelloNext](https://hellonext.co) lets you centralize, organize, and respond to customer feedback in one place. _(free up to 2 boards)_
 
-## MacOS 
+## Operating Systems
+
+### Mac
+
+- Upgrade to latest Homebrew version
+
+  ```
+  brew upgrade
+  ```
+
+- Update Homebrew software packages
+
+  ```
+  brew update
+  ```
+
+## Shell 
 
 ### [ZSH](https://github.com/ohmyzsh/ohmyzsh) Setup
 
@@ -39,6 +55,39 @@
   source /usr/local/share/chruby/chruby.sh
   source /usr/local/share/chruby/auto.sh
   chruby ruby-3.1.2
+  ```
+### [Bash](https://www.gnu.org/software/bash/) Setup
+
+- .bashrc
+  
+  ```
+  # automatically start the SSH Agent when the Bash agent is running
+  
+  env=~/.ssh/agent.env
+  
+  agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+  
+  agent_start () {
+      (umask 077; ssh-agent >| "$env")
+      . "$env" >| /dev/null ; }
+  
+  agent_load_env
+  
+  # agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+  agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+  
+  if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then
+      agent_start
+      ssh-add
+  elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
+      ssh-add
+  fi
+  
+  unset env
+  
+  # add the SSH key you want to configure on startup
+  
+  ssh-add ~/.ssh/{KEY}
   ```
 
 ## Code Standards

@@ -25,6 +25,19 @@
   - [aws-nuke](https://github.com/rebuy-de/aws-nuke) is a great tool for destroying everything in your account.
 - Google Cloud
 
+## Version Tracking
+
+- [Git](https://github.com)
+
+```
+git config --list
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git stash pop
+git stash pop stash@{0}
+git stash apply
+git stash apply stash@{0}
+```
 ## Game Development
 
 - [Unity3D](https://github.com/LarsPeterson/unity3d)
@@ -41,7 +54,8 @@
 
 ## 3D Modeling
 
-- Blender
+- [Blender](https://www.blender.org/)
+- [TinkerCad](https://www.tinkercad.com/)
 
 ## Image Editing
 

@@ -168,7 +168,7 @@
   - [aws-nuke](https://github.com/rebuy-de/aws-nuke) is a great tool for destroying everything in your account.
 - Google Cloud
 
-## Web Development
+## Web Development Frontend
 
 ### UI
 
@@ -194,27 +194,6 @@
 - [RxJS](https://rxjs.dev) is a reactive **library** using observables that makes it easier to compose asynchronous code. _(free)_
 - [React](https://reactjs.org) is a **library** for building component-based interactive UIs. _(free)_
 
-### C#
-
-- [SPA](https://learn.microsoft.com/en-us/aspnet/core/client-side/spa-services?source=recommendations&view=aspnetcore-6.0)
-- [Worker Services](https://learn.microsoft.com/en-us/dotnet/core/extensions/workers)
-- [WCF Web Service](https://learn.microsoft.com/en-us/dotnet/core/additional-tools/wcf-web-service-reference-guide)
-- [ServiceStack](https://servicestack.net)
-- Web APIs Part 1: [Creating Discoverable HTTP APIs with ASP.NET Core 5 Web API](https://devblogs.microsoft.com/dotnet/creating-discoverable-http-apis-with-asp-net-core-5-web-api/)
-- Web APIs Part 2: [Open-source HTTP API packages and tools](https://devblogs.microsoft.com/dotnet/open-source-http-api-packages-and-tools/)
-- Web APIs Part 3: [Generating HTTP API clients using Visual Studio Connected Services](https://devblogs.microsoft.com/dotnet/generating-http-api-clients-using-visual-studio-connected-services/)
-- Web APIs Part 4: [App Building with Azure API Management, Functions, Power Apps, and Logic Apps](https://devblogs.microsoft.com/dotnet/app-building-with-azure-api-management-functions-power-apps-and-logic-apps/)
-- [Exceptions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/)
-
-### Java
-
-- https://spring.io/
-
-### Ruby
-
-- [Best Way to Install Ruby on Mac 1](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma)
-- [Best Way to Install Ruby on Mac 2](https://mac.install.guide/ruby/12.html)
-
 ### Angular
 
 - Install NodeJS using [NVM](https://github.com/coreybutler/nvm-windows)
@@ -237,6 +216,29 @@
   - TSLint has been deprecated and ESLint is the official replacement.
     - https://blog.bitsrc.io/how-ive-set-up-eslint-and-prettier-in-angular-16-and-why-i-did-that-4bfc304284a6
     - https://github.com/artsy/lint-changed
+
+## Web Development Backend
+
+### C#
+
+- [SPA](https://learn.microsoft.com/en-us/aspnet/core/client-side/spa-services?source=recommendations&view=aspnetcore-6.0)
+- [Worker Services](https://learn.microsoft.com/en-us/dotnet/core/extensions/workers)
+- [WCF Web Service](https://learn.microsoft.com/en-us/dotnet/core/additional-tools/wcf-web-service-reference-guide)
+- [ServiceStack](https://servicestack.net)
+- Web APIs Part 1: [Creating Discoverable HTTP APIs with ASP.NET Core 5 Web API](https://devblogs.microsoft.com/dotnet/creating-discoverable-http-apis-with-asp-net-core-5-web-api/)
+- Web APIs Part 2: [Open-source HTTP API packages and tools](https://devblogs.microsoft.com/dotnet/open-source-http-api-packages-and-tools/)
+- Web APIs Part 3: [Generating HTTP API clients using Visual Studio Connected Services](https://devblogs.microsoft.com/dotnet/generating-http-api-clients-using-visual-studio-connected-services/)
+- Web APIs Part 4: [App Building with Azure API Management, Functions, Power Apps, and Logic Apps](https://devblogs.microsoft.com/dotnet/app-building-with-azure-api-management-functions-power-apps-and-logic-apps/)
+- [Exceptions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/)
+
+### Java
+
+- https://spring.io/
+
+### Ruby
+
+- [Best Way to Install Ruby on Mac 1](https://stackoverflow.com/questions/51126403/you-dont-have-write-permissions-for-the-library-ruby-gems-2-3-0-directory-ma)
+- [Best Way to Install Ruby on Mac 2](https://mac.install.guide/ruby/12.html)
 
 ## Web Testing
 
@@ -289,7 +291,6 @@
 ## Machine Learning
 
 - [Azure Open Datasets](https://azure.microsoft.com/en-us/products/open-datasets/)
-
 - [Running Jupyter Notebooks in Azure](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks)
 
 ## Encryption
@@ -299,9 +300,7 @@
 ## Crypto
 
 - Decentralized exchanges
-
 - Privacy coins
-
 - Stable smart contracts
 
 ## Electrical

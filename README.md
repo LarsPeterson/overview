@@ -94,6 +94,83 @@
   ssh-add ~/.ssh/{KEY}
   ```
 
+## SSH
+
+### OpenSSH
+OpenSSH is a connectivity tool for remote sign-in that uses the SSH protocol. It encrypts all traffic between client and server to eliminate eavesdropping, connection hijacking, and other attacks.
+
+- Remote operations are done using ssh, scp, and sftp.
+- Key management with ssh-add, ssh-keysign, ssh-keyscan, and ssh-keygen.
+- The service side consists of sshd, sftp-server, and ssh-agent.
+
+### RSA Key Generation
+
+RSA (Rivest–Shamir–Adleman) is a public-key cryptosystem that is widely used for secure data transmission. It is also one of the oldest. The acronym "RSA" comes from the surnames of Ron Rivest, Adi Shamir and Leonard Adleman, who publicly described the algorithm in 1977. An equivalent system was developed secretly in 1973 at Government Communications Headquarters (GCHQ) (the British signals intelligence agency) by the English mathematician Clifford Cocks. That system was declassified in 1997.
+
+```
+ssh-keygen -t rsa -b 4096
+```
+
+### SSH Agent
+
+The SSH agent is a central part of OpenSSH. It's a key manager for SSH. It holds your keys and certificates in memory, unencrypted, and ready for use by ssh. It saves you from typing a passphrase every time you connect to a server. It runs in the background on your system, separately from ssh.
+
+```
+eval `ssh-agent -s`
+```
+
+```
+ls ~/.ssh/
+```
+
+```
+ssh-add -l
+```
+
+```
+ssh-add ~/.ssh/{NAME}
+```
+
+### add key to remote server (not used for GIT)
+
+```ssh-copy-id -i ~/.ssh/{NAME} {USER}@{HOST}```
+
+### test connection
+
+```ssh -T git@github.com```
+
+```ssh -T git@ssh.dev.azure.com```
+
+### test connection (verbose)
+
+```ssh -v git@github.com```
+
+```ssh -v git@ssh.dev.azure.com```
+
+### example ssh config
+
+```
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/{NAME}
+```
+
+```
+Host ssh.dev.azure.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/{NAME}
+```
+
+```
+Host example.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  User {LOGIN USER}
+  IdentityFile ~/.ssh/{NAME}
+```
+
 ## Code Standards
 
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)

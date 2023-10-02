@@ -22,6 +22,7 @@
   - **Azure App Service** for backends, serverside apps.
   - **Azure Static Web App** for JavaScript, clientside apps.
 - Amazon AWS
+  - [aws-nuke](https://github.com/rebuy-de/aws-nuke) is a great tool for destroying everything in your account.
 - Google Cloud
 
 ## Game Development

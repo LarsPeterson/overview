@@ -82,6 +82,16 @@ git stash apply stash@{0}
 ## Game Development
 
 - [Unity3D](https://github.com/LarsPeterson/unity3d)
+  - https://assetstore.unity.com/packages/tools/utilities/build-report-tool-8162
+  - https://assetstore.unity.com/packages/tools/utilities/asset-hunter-pro-135296
+  - https://github.com/Siccity/GLTFUtility
+  - Methods of Movement
+    - Rigidbody SetVelocity
+    - Rigidbody MovePosition
+    - Rigidbody AddForce
+    - Transform Translate
+    - Transform Set Position
+
 - [Godot](https://godotengine.org/) ⭐
 
 ## Game Art

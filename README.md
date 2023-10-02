@@ -196,3 +196,6 @@
 - Figma
 - Adobe XD ⭐
 
+## Electrical
+
+- [Fritzing](https://fritzing.org/)

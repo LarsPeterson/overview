@@ -166,6 +166,12 @@
   - Microsoft Power BI
 - Amazon AWS
   - [aws-nuke](https://github.com/rebuy-de/aws-nuke) is a great tool for destroying everything in your account.
+  - [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html).
+
+  ```
+  aws s3 sync s3://<source_bucket> <local_destination>
+  ```
+
 - Google Cloud
 
 ## Web Development Frontend

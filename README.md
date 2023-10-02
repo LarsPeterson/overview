@@ -18,10 +18,11 @@
 - Cloudflare Pages
 - Firebase
 - DigitalOcean
-- Microsoft Azure
+- Microsoft Azure ⭐
   - **Azure App Service** for backends, serverside apps.
   - **Azure Static Web App** for JavaScript, clientside apps.
 - Amazon AWS
+- Google Cloud
 
 ## Game Development
 

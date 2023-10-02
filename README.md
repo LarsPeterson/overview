@@ -26,6 +26,10 @@
   brew update
   ```
 
+### Linux
+
+- [Introduction to Linux File System](https://opensource.com/life/16/10/introduction-linux-filesystems)
+
 ## Shell 
 
 ### [ZSH](https://github.com/ohmyzsh/ohmyzsh) Setup
@@ -94,6 +98,18 @@
 
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
+## Code Certifications
+
+- PMP
+
+- CISSP
+
+- Kali Linux: Offensive Security
+
+- Over The Wire: War Games
+
+- SAFe Agile Certificate
+
 ## Code Environments
 
 - CodePen
@@ -104,8 +120,8 @@
 - Edge Computing
 - ChatGPT
 - Containers
-- Microfrontends
-- Full Stack Frameworks
+- Micro-Frontends
+- Full Stack Frameworks (Remix)
 - Low Code / No Code
 
 ## Code Monitoring and Linting
@@ -201,6 +217,7 @@
 
 ### Angular
 
+- Install NodeJS using [NVM](https://github.com/coreybutler/nvm-windows)
 - Tips
   - https://tomastrajan.medium.com/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81
 
@@ -255,6 +272,7 @@
 - [Blender](https://www.blender.org/)
 - [TinkerCad](https://www.tinkercad.com/)
 - [Mixamo](https://www.mixamo.com/)
+- [SketchFab](https://sketchfab.com)
 
 ## Graphic Design
 
@@ -267,6 +285,24 @@
 
 - Figma
 - Adobe XD ⭐
+
+## Machine Learning
+
+- [Azure Open Datasets](https://azure.microsoft.com/en-us/products/open-datasets/)
+
+- [Running Jupyter Notebooks in Azure](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-run-jupyter-notebooks)
+
+## Encryption
+
+- Elliptic Curve Encryption
+
+## Crypto
+
+- Decentralized exchanges
+
+- Privacy coins
+
+- Stable smart contracts
 
 ## Electrical
 

@@ -1,15 +1,5 @@
 # Overview 2023
 
-## Artificial Intelligence
-
-- MidJourney
-
-## Project Planning
-
-- [Miro](https://miro.com) is the online collaborative whiteboard platform that enables distributed teams to work effectively. _(free up to 3 boards)_
-- [LucidChart](https://www.lucidchart.com) is a online diagramming tool that allows visual collaboration on charts and diagrams. _(free up to 3 documents)_
-- [HelloNext](https://hellonext.co) lets you centralize, organize, and respond to customer feedback in one place. _(free up to 2 boards)_
-
 ## Operating Systems
 
 ### Mac
@@ -385,6 +375,16 @@ Host example.com
 - Decentralized exchanges
 - Privacy coins
 - Stable smart contracts
+
+## Artificial Intelligence
+
+- MidJourney
+
+## Project Planning
+
+- [Miro](https://miro.com) is the online collaborative whiteboard platform that enables distributed teams to work effectively. _(free up to 3 boards)_
+- [LucidChart](https://www.lucidchart.com) is a online diagramming tool that allows visual collaboration on charts and diagrams. _(free up to 3 documents)_
+- [HelloNext](https://hellonext.co) lets you centralize, organize, and respond to customer feedback in one place. _(free up to 2 boards)_
 
 ## Electrical
 

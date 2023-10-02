@@ -1,10 +1,14 @@
 # Overview 2023
 
+## Artificial Intelligence
+
+- MidJourney
+
 ## Game Development
 
 - [Unity3D](https://github.com/LarsPeterson/unity3d)
 
-- Godot
+- [Godot](https://godotengine.org/) ⭐
 
 ### Game Art
 
@@ -28,4 +32,4 @@
 
 - Figma
 
-- Adobe XD
+- Adobe XD ⭐

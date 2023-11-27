@@ -1,5 +1,12 @@
 # Overview 2023
 
+## Setup
+
+- Enable Virtualization and Resizable BAR is BIOS settings
+- GIT: https://git-scm.com/downloads
+- NVM: https://github.com/nvm-sh/nvm
+- 
+
 ## Operating Systems
 
 ### Mac
